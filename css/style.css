@@ -8,7 +8,7 @@ body {
     width: 1320px;
     margin: 0px auto;
     padding: 0 10px;
-    line-height: 26.25px;
+    line-height: 26px;
 }
 .flex-box {
     display: flex;
@@ -19,12 +19,12 @@ body {
 .logo {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 26px;
+    font-size: 16px;
+    letter-spacing: 8px;
 }
 .block-list > li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 20px;
 }
 
 .block-list > li a.active {
@@ -35,44 +35,43 @@ body {
 }
 .block-list {
     display: flex;
-    column-gap: 60px;
+    column-gap: 42px;
 }
 
 .header {
     background-color: #020509;
-    padding: 25px 0;
+    padding: 35px 0;
 }
 .box {
     width: 540px;
 }
 
-.header2 {
-    padding: 160px 0;
+.design {
+    padding: 160px 0 180px;
     background: rgba(255, 206, 56, 0.05)
 }
 .box>h1{
     font-size: 48px;
     font-weight: 500;
     margin-bottom: 45px;
+    line-height: 60px;
 }
-.box>p {
-    margin-bottom: 60px;
-}
-.box>a {
+.box>button {
     font-size: 16px;
-    font-weight: 400;
-    text-decoration: none;
-    background-color: aliceblue;
-    padding: 20px 50px;
+    display: inline-block;
+    padding: 24px 41px 23px;
     background-color: #FFCE38;
+    border: none;
+    letter-spacing: 1.3px;
 }
-.header3 {
+.about {
     background: rgba(0, 207, 250, 0.05);
     padding: 85px 0;
+    text-align: center;
 }
 .box2 {
     width: 540px;
-    text-align: center;
+    margin: 0 auto 84px;
 }
 .box2>h3 {
     font-size: 32px;
@@ -87,13 +86,6 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 45px;
-}
-
-.img {
-    display: block;
-    width: 1200px;
-    margin: 84px auto;
 }
 .a2 {
     margin: auto;
@@ -101,4 +93,15 @@ p {
 .end {
     color: white;
     text-align: center;
+}
+.cards {
+    background: #020509;
+    padding: 80px 0;
+}
+.footer {
+    background: #020509;
+    padding: 35px;
+}
+button {
+    margin-top: 60px;
 }
